@@ -1,1 +1,0 @@
-# janeshin-website.github.io
