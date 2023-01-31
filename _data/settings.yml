@@ -2,7 +2,7 @@
 # Site Settings
 title: APRILab
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Website for Active Perception and Robot Intelligence Lab at the University of Florida
+description: Mria is a multipurpose blog theme for Jekyll
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -12,35 +12,27 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'Research'
+      url: '/blog/'
     - title: 'People'
       url: '/authors/'
-    - title: 'Research' # -> Projects in the future
-      url: '/blog/'
-    - title: 'Publications'
-      url: '/about/'
-    #- title: 'News' # -> will add later
-    #  url: '/blog/'
-    # - title: 'Facility' # -> will add later
-    #   url: '/about/'
-    - title: 'Contact'
-      url: '/about/'
-    # - title: 'Videos'
-    #   url: '/videos/'
-    # - title: 'Pages'
-    #   submenu:
-    #   - url: '/about/'
-    #     title: 'About'
-    #   - url: '/contact/'
-    #     title: 'Contact'
-    #   - url: '/elements/'
-    #     title: 'Elements'
+    - title: 'Facilities'
+      url: '/videos/'
+    - title: 'Pages'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/contact/'
+        title: 'Contact'
+      - url: '/elements/'
+        title: 'Elements'
 
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero__title: Thoughts, stories and ideas.
+  hero__title: Active Perception and Robot Intelligence Lab at UF
   hero__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
