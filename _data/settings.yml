@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: APRILab
+title: APRILab @ UF
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Mria is a multipurpose blog theme for Jekyll
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -10,29 +10,29 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
     - title: 'Research'
-      url: '/blog/'
+      url: '/'
     - title: 'People'
+      url: '/blog/'
+    - title: 'Publication'
       url: '/authors/'
-    - title: 'Facilities'
+    - title: 'UF MAE'
       url: '/videos/'
-    - title: 'Pages'
+    - title: 'More'
       submenu:
       - url: '/about/'
-        title: 'About'
+        title: 'News'
       - url: '/contact/'
         title: 'Contact'
       - url: '/elements/'
-        title: 'Elements'
+        title: 'Facilities'
 
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero__title: Active Perception and Robot Intelligence Lab at UF
+  hero__title: Active Perception and Robot Intelligence Lab
   hero__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
