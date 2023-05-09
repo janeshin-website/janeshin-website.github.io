@@ -1,3 +1,5 @@
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/janeshin-website/janeshin-website)
+
 # Mria is a multipurpose Jekyll blog theme.
 
 Mria is a high-quality multipurpose Jekyll theme with a unique style and clean code. You can use Mria for multipurpose like blog, magazine, portfolio, etc. This theme is fully responsive, and it looks good on all types of screens and devices. If you’re looking for a theme that is clean, high performance, and simple, the Mria theme is exactly what you’re looking for then.
