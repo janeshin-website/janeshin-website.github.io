@@ -6,37 +6,18 @@
 
         <div class="footer__inner{% if site.data.settings.mailchimp__settings.enable != true %} is-border-top{% endif %}">
           <div class="row">
-            <div class="col col-4 col-d-12">
-              <div class="widget-footer widget-info">
-                <h3 class="widget-info__title">{{site.data.settings.title}}</h3>
-                <p class="widget-info__desc">{{site.data.settings.footer__description}}</p>
-
-                {% if site.data.settings.social %}
-                <div class="social">
-                  <ul class="social__list list-reset">
-                    {% for social in site.data.settings.social %}
-                    <li class="social__item">
-                      <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener"
-                        aria-label="{{social.icon | capitalize}} link"><i class="ion ion-logo-{{social.icon}}"></i></a>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-                {% endif %}
-    
-              </div>
-            </div>
-    
             <div class="col col-6 col-d-12">
               <div class="widget-footer widget-recent-posts">
-                <h3 class="widget-recent-posts__title">Recent posts</h3>
-                {% for post in site.posts limit:2 %}
+                <!-- <h3 class="widget-recent-posts__title">Recent posts</h3> -->
+                <h4> Recent News </h4>
+                {% for post in site.posts limit:4 %}
                 <div class="recent-posts">
-                  {% if post.image %}
+                  <!-- {% if post.image %}
                     <a class="recent-posts__image" href="{{ post.url }}" {% if post.accent %}style="background-color: {{ post.accent }};"{% endif %}><img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}"></a>
-                  {% endif %}
+                  {% endif %} -->
                   <div class="recent-posts__content">
-                    <div class="article__meta">
+                    <h4 class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                    <!-- <div class="article__meta">
                       {% if post.tags.size >= 1 %}
                       <div class="article__tags">
                         {% for tag in post.tags %}
@@ -67,10 +48,32 @@
                         {% endif %}
                         <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 {% endfor %}
+              </div>
+            </div>
+            
+            <div class="col col-4 col-d-12">
+              <div class="widget-footer widget-info">
+                <!-- <h3 class="widget-info__title">{{site.data.settings.title}}</h3> -->
+                <h4> Contact Information </h4>
+                <p class="widget-info__desc"> "Jane" Jaejeong Shin <br> Assistant Professor <br> University of Florida <br> Gainesville, FL 32611 <br> (352) 392-3140 <br> jane.shin@ufl.edu </p>
+
+                {% if site.data.settings.social %}
+                <div class="social">
+                  <ul class="social__list list-reset">
+                    {% for social in site.data.settings.social %}
+                    <li class="social__item">
+                      <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener"
+                        aria-label="{{social.icon | capitalize}} link"><i class="ion ion-logo-{{social.icon}}"></i></a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% endif %}
+    
               </div>
             </div>
 

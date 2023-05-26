@@ -1,0 +1,23 @@
+<div class="article col col-12">
+  <div class="article__inner">
+    <div class="article__head">
+
+      {% if post.image %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="article__image" aria-hidden="true" tabindex="-1">
+        <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+      </a>
+      {% endif %}
+
+    </div>
+
+    <div class="article__content">
+      <h2 class="article__title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content |
+        strip_html | truncate: 160 }}{% endif %}</p>
+
+    </div>
+  </div>
+</div>

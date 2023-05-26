@@ -1,0 +1,36 @@
+---
+layout: default
+title: People
+description:
+---
+
+<!-- begin authors -->
+<section class="authors">
+
+  <div class="authors__head">
+    <h1 class="authors__title">{{ page.title }}</h1>
+  </div>
+
+  <div class="authors__inner animate">
+    <div class="container">
+      <div class="row">
+        {% for fname in site.data.people %}
+        {% assign currentPage = site.pages | where: "name", fname | first %}
+        {% if currentPage %}
+        <div class="col col-4 col-d-6 col-t-12">
+          <div class="authors__info">
+            <a class="authors__image" href="/people/{{ currentPage.slug }}"><img class="lazy" data-src="{{ currentPage.image }}" alt="{{ currentPage.name }}"></a>
+            <h2 class="authors__name">{{ currentPage.displayname }}</h2>
+            <p class="authors__description">{{ currentPage.title }}</p>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Former members -->
+
+</section>
+<!-- end authors -->

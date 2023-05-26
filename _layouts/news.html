@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="post-head">
+    {% if page.video_embed %} {% assign videoInfo = ' post__info-video' %} {% endif %}
+    <div class="post__info{{videoInfo}}">
+
+      <h1 class="post__title">{{ page.title | escape }}</h1>
+      
+      <div class="post__meta">
+        <div class="post__meta__bottom">
+          <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        </div>
+      </div>
+
+      <!-- {% if page.description %}
+        <div class="post__description">{{ page.description }}</div>
+      {% endif %} -->
+      
+    </div>
+
+    <!-- {% if page.video_embed %}
+    <div class="post-video">
+      <div class="post-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+
+    {% else %}
+
+    {%if page.image %}
+    <div class="post-image">
+      <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+    </div>
+    {%endif %}
+    
+    {% endif %} -->
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="row">
+            <div class="article col col-12">
+              <div class="article__inner">
+                <div class="article__head">
+            
+                  {% if page.image %}
+                  <a href="{{ page.url | prepend: site.baseurl }}" class="article__image" aria-hidden="true" tabindex="-1">
+                    <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+                  </a>
+                  {% endif %}
+            
+                </div>
+            
+                <div class="article__content">
+            
+                  <p>{% if page.description %}{{ page.description }}{% else %}{{ page.content |
+                    strip_html | truncate: 160 }}{% endif %}</p>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <p style="margin-bottom:120px;">  </p>
+</div>
+<!-- end post -->

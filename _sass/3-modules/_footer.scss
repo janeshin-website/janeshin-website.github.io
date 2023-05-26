@@ -48,8 +48,10 @@
 }
 
 .widget-info__desc {
-  max-width: 380px;
-  color: var(--text-alt-color);
+  font-size: 16px;
+  margin: 0; // these two lines were added
+  // max-width: 380px;
+  // color: var(--text-alt-color);
 
   @media only screen and (max-width: $desktop) {
     max-width: 100%;
@@ -100,15 +102,15 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 12px; //24px;
 
   &:last-child {
     margin-bottom: 0;
   }
 
   @media only screen and (max-width: $mobile) {
-    flex-direction: column;
-    margin-bottom: 32px;
+    // flex-direction: column;
+    margin-bottom: 12px; // 32px;
   }
 }
 
@@ -148,8 +150,8 @@
   }
 
   .recent-posts__title {
-    font-size: 21px;
-    margin: 16px 0;
+    font-size: 16px; // 21px originally
+    margin: 0; // 16px 0 originally. ref) top right bottom left
 
     a {
       text-decoration: underline;
@@ -180,8 +182,10 @@
 
   @media only screen and (max-width: $mobile) {
     .recent-posts__title {
-      margin: 12px 0 16px;
-      font-size: 26px;
+      font-size: 16px;
+      margin: 0;
+      // margin: 12px 0 16px;
+      // font-size: 26px;
     }
 
     .article__author__image {

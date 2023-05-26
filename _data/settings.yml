@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
 title: APRILab @ UF
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Mria is a multipurpose blog theme for Jekyll
+logo: '/images/logo_color_horizontal.png' # You can add own logo. For example '/images/logo.png'.
+description: Website for the Active Perception and Robot Intelligence Lab at the University of Florida
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -11,21 +11,21 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 menu__settings:
   menu__items:
     - title: 'Research'
-      url: '/blog-copy/'
+      url: '/research/'
     - title: 'People'
-      url: '/authors/'
+      url: '/people/'
     - title: 'Publications'
       url: '/publications/'
-    - title: 'UF MAE'
-      url: 'https://mae.ufl.edu'
     - title: 'More'
       submenu:
-      - url: '/about/'
+      - url: '/news/'
         title: 'News'
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Testbeds'
+      - url: '/openings/'
+        title: 'Openings'
+      - url: '/teaching/'
+        title: 'Teaching'
+    - title: 'UF MAE'
+      url: 'https://mae.ufl.edu'
 
 
 #-------------------------------
@@ -33,7 +33,7 @@ menu__settings:
 hero:
   enable: true
   hero__title: Active Perception and Robot Intelligence Lab
-  hero__description: The Active Perception and Robot Intelligence Lab is in the Department of Mechanical and Aerospace Engineering at the University of Florida. We investigate optimal planning approaches for autonomous robots based on the underlying principles in sensor perception. We seek to understand the principles of how a robot should interact with surrounding dynamic environments in order to achieve given sensing objectives.
+  hero__description: The Active Perception and Robot Intelligence Lab is in the Department of Mechanical and Aerospace Engineering at the University of Florida. We investigate optimal planning approaches for autonomous systems based on the underlying principles in robot perception. We seek to analyze uncertainties associated with perception and understand how the perception can be utilized in planning to acheive robust systems.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
 
@@ -83,7 +83,8 @@ author__section:
 #-------------------------------
 # Newsletter Settings
 mailchimp__settings:
-  enable: true
+  # enable: true
+  enalbe: false
   mailchimp__title: Get interesting news
   mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
   mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
@@ -93,17 +94,25 @@ mailchimp__settings:
 
 
 #-------------------------------
+# Research Section Settings
+research__settings:
+  enable: true
+  research__title: Research
+  research__description:
+
+
+#-------------------------------
 # Footer Settings
 footer__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
 
 
 # Social Links
 social:
-- {icon: "twitter", link: "https://twitter.com"}
-- {icon: "facebook", link: "https://facebook.com"}
-- {icon: "codepen", link: "https://codepen.io"}
-- {icon: "pinterest", link: "https://pinterest.com"}
-- {icon: "vimeo", link: "https://vimeo.com"}
+# - {icon: "twitter", link: "https://twitter.com"}
+# - {icon: "facebook", link: "https://facebook.com"}
+# - {icon: "codepen", link: "https://codepen.io"}
+# - {icon: "pinterest", link: "https://pinterest.com"}
+# - {icon: "vimeo", link: "https://vimeo.com"}
 
 # Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -114,12 +123,12 @@ footer__menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
-    - title: 'Elements'
-      url: '/elements/'
+    - title: 'Research'
+      url: '/research/'
+    - title: 'People'
+      url: '/people/'
+    - title: 'Publications'
+      url: '/publications/'
 
 
 #-------------------------------

@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% if page.cover %}
+<!-- begin hero image -->
+<div class="hero__image">
+  <div class="hero__image__inner">
+    <img class="lazy" data-src="{{page.cover}}" alt="{{page.displayname}}">
+  </div>
+</div>
+<!-- end hero image -->
+{% endif %}
+
+<!-- begin author -->
+<section class="author">
+
+  <div class="container">
+
+    <div class="author__content">
+      <div class="author__image"><img class="lazy" data-src="{{ page.image }}" alt="{{ page.displayname }}"></div>
+      <h1 class="author__name">{{ page.displayname }}</h1>
+      <div class="author__posts__count">{{ page.title }}</div>
+
+      <div class="author__info">
+      {% if page.website %}
+        <a class="author__social__item" href="{{ page.website }}" aria-label="Website link"><i class="ion ion-ios-link"></i> Website</a>
+      {% endif %}
+      {% if page.googlescholar %}
+        <a class="author__social__item" href="{{ page.googlescholar }}" aria-label="Website link"><i class="ai ai-google-scholar-square"></i> Google Scholar</a>
+      {% endif %}
+      {% if page.github %}
+        <a class="author__social__item" href="{{ page.github }}" aria-label="Website link"><i class="ion ion-logo-github"></i> GitHub </a>
+      {% endif %}
+      {% if page.linkedin %}
+        <a class="author__social__item" href="{{ page.linkedin }}" aria-label="Facebook link"><i class="ion ion-logo-linkedin"></i> LinkedIn</a>
+      {% endif %}
+      </div>
+
+      {{ content }}
+
+    </div>
+
+  </div>
+
+</section>
+<!-- end author -->

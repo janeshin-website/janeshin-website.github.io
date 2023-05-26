@@ -1,0 +1,44 @@
+---
+layout: default
+title: News
+description:
+---
+
+<!-- begin hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+          <h1 class="hero__title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.blog__settings.blog__title }}{% endif %}</h1>
+          {% if page.description %}
+            <p class="hero__description">{{ page.description }}</p>
+          {% else site.data.settings.blog__settings.blog__description %}
+            <p class="hero__description">{{ site.data.settings.blog__settings.blog__description }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end hero -->
+
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="row">
+            {% if site.posts.size > 0 %}
+              {% for post in paginator.posts offset:0 %}
+                {% include article2.html %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+{% include pagination.html %}

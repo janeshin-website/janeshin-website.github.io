@@ -2,13 +2,13 @@
 layout: page
 title: Publications
 permalink: /publications/
-# image: '/images/38.jpg'
 ---
 
 <!-- TODO: add link to PDF or ArXiv -->
 
 ## Journal Articles
-
+1. A. Paradise, S. Surve, J. C. Menezes, M. Gupta, V. Bisht, K. R. Jang, C. Liu, S. Qiu, J. Dong, J. Shin, and S. Ferrari, “Realthasc – a cyber-physical xr testbed for ai-supported real-time human autonomous systems collaborations,” *Frontiers (In Review)*, 2023
+1. M. Bays, T. Wettergren, J. Shin, S. Chang, and S. Ferrari, “Persistent schedule evaluation and adaptive re-planning for maritime search tasks,” *Journal of Intelligent & Robotic Systems (In Review)*, 2023
 1. A. L. Diaz, A. Ortega, H. Tingle, A. Pulido, O. Cordero, M. Nelson, N. Cocoves, J. Shin, R. Carthy, B. Wilkinson, and P. Ifju, “The Bathy-Drone: An Autonomous Uncrewed Drone-Tethered Sonar System,” *Drones*, vol. 6, no. 10, p. 294, Oct. 2022, doi: 10.3390/drones6100294.
 1. J. Shin, S. Chang, J. Weaver, J. C. Isaacs, B. Fu and S. Ferrari, “Informative Multiview Planning for Underwater Sensors,” in *IEEE Journal of Oceanic Engineering*, vol. 47, no. 3, pp. 780-798, July 2022, doi: 10.1109/JOE.2021.3119150
 
@@ -23,6 +23,9 @@ permalink: /publications/
 ## Conference Proceedings
 
 <!-- 1. AIAA Scitech paper -->
+1. B. Herrin, V. Close, N. Berner, J. Herbert, J. Mindlin, S. Paez, R. James, and J. Shin, “Submodical: Modular underwater robot for rapid development and validation of autonomous systems,” in *OCEANS 2023, Gulf Coast (Abstract Submitted)*
+1. A. Pulido, N. Sardinia, B. Sanders, P. Ifju, and J. Shin, “Coverage path planning for a robotics platform equipped with a side-scan sonar sensor for underwater bathymetry mapping,” in *AIAA SCITECH 2024 Forum (Abstract Submitted)*
+1. A. Pulido, A. Diaz, A. Ortega, P. Ifju, and J. Shin, “Trajectory planning and control of bathy-drone: A drone towing a boat equipped with sonar for bathymetry mapping,” in *AIAA SCITECH 2023 Forum*, 2023, p. 1811
 1. J. H. Ramos, J. Shin, K. Volle, P. Buzaud, K. Brink and P. Ganesh, "Information-Aware Guidance for Magnetic Anomaly based Navigation," *2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Kyoto, Japan, 2022, pp. 6347-6354, doi: 10.1109/IROS47612.2022.9981709.
 1. A. Pulido, R. Qin, A. Diaz, A. Ortega, P. Ifju and J. J. Shin, "Time and Cost-Efficient Bathymetric Mapping System using Sparse Point Cloud Generation and Automatic Object Detection," *OCEANS 2022, Hampton Roads, Hampton Roads*, VA, USA, 2022, pp. 1-8, doi: 10.1109/OCEANS47191.2022.9977073.
 1. J. Shin, S. Chang, M. J. Bays, J. Weaver, T. A. Wettergren and S. Ferrari, "Synthetic Sonar Image Simulation with Various Seabed Conditions for Automatic Target Recognition," *OCEANS 2022, Hampton Roads*, Hampton Roads, VA, USA, 2022, pp. 1-8, doi: 10.1109/OCEANS47191.2022.9977275.
