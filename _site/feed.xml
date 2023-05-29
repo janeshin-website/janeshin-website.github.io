@@ -5,9 +5,20 @@
         <description>Website for the Active Perception and Robot Intelligence Lab at the University of Florida</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 28 May 2023 20:04:31 -0400</pubDate>
-        <lastBuildDate>Sun, 28 May 2023 20:04:31 -0400</lastBuildDate>
+        <pubDate>Sun, 28 May 2023 21:12:46 -0400</pubDate>
+        <lastBuildDate>Sun, 28 May 2023 21:12:46 -0400</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Research Story in NewScientist on MagNav Research</title>
+                <description>&lt;p&gt;A research story is published in NewScientist, featuring the Magnetic Navigation research performend in collaboration with Autonomous Vehicle Lab (AVL) at UF Research and Engineering Education Facility (REEF). You can read the article &lt;a href=&quot;https://www.newscientist.com/article/2338669-robot-navigates-indoors-by-tracking-anomalies-in-magnetic-fields/&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+</description>
+                <pubDate>Thu, 22 Sep 2022 20:00:00 -0400</pubDate>
+                <link>http://localhost:4000/blog/research-story-in-newscientist-on-magnav-research</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/research-story-in-newscientist-on-magnav-research</guid>
+                
+                
+            </item>
         
     </channel>
 </rss>

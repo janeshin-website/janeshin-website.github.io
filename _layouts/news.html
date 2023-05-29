@@ -59,10 +59,10 @@ layout: default
             
                 </div>
             
-                <div class="article__content">
+                <!-- <div class="article__content"> -->
+                  <div class="page__content">
             
-                  <p>{% if page.description %}{{ page.description }}{% else %}{{ page.content |
-                    strip_html | truncate: 160 }}{% endif %}</p>
+                  <p>{{ page.content }}</p>
             
                 </div>
               </div>

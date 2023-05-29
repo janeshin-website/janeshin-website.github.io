@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: APRILab @ UF
-logo: '/images/logo_color_horizontal.png' # You can add own logo. For example '/images/logo.png'.
+logo: '/images/logos/logo_color_horizontal.png' # You can add own logo. For example '/images/logo.png'.
 description: Website for the Active Perception and Robot Intelligence Lab at the University of Florida
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
