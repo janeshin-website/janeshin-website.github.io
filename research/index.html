@@ -28,11 +28,8 @@ description: The APRILab focuses on developing novel sensor-based planning appro
 <div class="videos-page container animate">
   <div class="row">
     {% for fname in site.data.research %}
-      <p> {{ fname }} <br> </p>
       {% assign currentPage = site.pages | where: "slug", fname | first %}
-      <p> before if {{ currentPage.name }} should be the same with {{ fname }} now start if <br> </p>
       {% if currentPage %}
-      <p> {{ fname }} <br></p>
       <div class="article col col-4 col-d-6 col-t-12">
         <div class="article__inner">
 

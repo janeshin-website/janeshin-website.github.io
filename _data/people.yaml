@@ -1,5 +1,8 @@
-- jane.md
-- andres.md
-- baker.md
-- zijing.md
-- sunmo.md
+---
+# list of people to show in people page. Include file name without extensions
+- jane
+- andres
+- baker
+- zijing
+- sunmo
+...
