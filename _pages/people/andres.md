@@ -11,4 +11,5 @@ linkedin: https://www.linkedin.com
 permalink: /people/:slug/
 ---
 <!-- Put your biography here -->
-Andres Pulido is a Ph.D. student in the Active Perception and Intelligent Robotics Lab. He received his B.S. degree in Mechanical Engineering from the University of Florida in 2021, where he was an undergraduate researcher for the Machine Intelligence Lab (MIL). His research interests include robotics motion planning, reinforcement learning, and optimal and adaptive control. Email: andrespulido@ufl.edu
+Andres Pulido is a Ph.D. student in the Active Perception and Intelligent Robotics Lab. He received his B.S. degree in Mechanical Engineering from the University of Florida in 2021, where he was an undergraduate researcher for the Machine Intelligence Lab (MIL). His research interests include robotics motion planning, reinforcement learning, and optimal and adaptive control.  
+Email: andrespulido@ufl.edu
