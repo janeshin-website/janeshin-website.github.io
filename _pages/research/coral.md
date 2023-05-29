@@ -2,7 +2,7 @@
 layout: page
 title: CoRAL - NeRF
 permalink: /research/:slug/
-image: '/images/38.jpg' # representative figure
+image: '/images/research/FigCoralNerf.png' # representative figure
 description: in 160 characters
 ---
 

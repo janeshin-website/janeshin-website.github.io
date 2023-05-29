@@ -2,7 +2,7 @@
 layout: page
 title: Modular UUV
 permalink: /research/:slug/
-image: '/images/38.jpg' # representative figure
+image: '/images/research/submodical_photo_lights.jpg' # representative figure
 description: in 160 characters
 ---
 
