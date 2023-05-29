@@ -5,15 +5,37 @@
         <description>Website for the Active Perception and Robot Intelligence Lab at the University of Florida</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 28 May 2023 21:12:46 -0400</pubDate>
-        <lastBuildDate>Sun, 28 May 2023 21:12:46 -0400</lastBuildDate>
+        <pubDate>Mon, 29 May 2023 15:22:27 -0400</pubDate>
+        <lastBuildDate>Mon, 29 May 2023 15:22:27 -0400</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>APRILunch and End-of-semetser Presentations!</title>
+                <description>&lt;p&gt;APRILab had an end-of-semester presentations followed by a group lunch - APRILunch! Everyone and every team made great resesarch progress and presented them well. Please check out the resesarch page to see more up-to-date research progress!&lt;/p&gt;
+</description>
+                <pubDate>Fri, 28 Apr 2023 07:00:00 -0400</pubDate>
+                <link>http://localhost:4000/blog/aprilunch-end-of-semester-presentations</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/aprilunch-end-of-semester-presentations</guid>
+                
+                
+            </item>
+        
+            <item>
+                <title>APRILab presented two papers at OCEANS 2022</title>
+                <description>&lt;p&gt;Andres Pulido and Dr. Shin presented two papers at OCEANS 22 Hampton Roads! Andres presented his work on 3D bathymetry mapping using Bathydrone, and Dr. Shin presented her work on synthetic sonar image generation using Unreal Engine. Check out our publication page for details.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 19 Oct 2022 22:55:00 -0400</pubDate>
+                <link>http://localhost:4000/blog/aprilab-presented-two-papers-at-oceans-2022</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/aprilab-presented-two-papers-at-oceans-2022</guid>
+                
+                
+            </item>
         
             <item>
                 <title>Research Story in NewScientist on MagNav Research</title>
                 <description>&lt;p&gt;A research story is published in NewScientist, featuring the Magnetic Navigation research performend in collaboration with Autonomous Vehicle Lab (AVL) at UF Research and Engineering Education Facility (REEF). You can read the article &lt;a href=&quot;https://www.newscientist.com/article/2338669-robot-navigates-indoors-by-tracking-anomalies-in-magnetic-fields/&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
 </description>
-                <pubDate>Thu, 22 Sep 2022 20:00:00 -0400</pubDate>
+                <pubDate>Fri, 23 Sep 2022 08:00:00 -0400</pubDate>
                 <link>http://localhost:4000/blog/research-story-in-newscientist-on-magnav-research</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/research-story-in-newscientist-on-magnav-research</guid>
                 

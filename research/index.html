@@ -55,7 +55,7 @@ description: The APRILab focuses on developing novel sensor-based planning appro
               <a href="{{ currentPage.url | prepend: site.baseurl }}">{{ currentPage.title }}</a>
             </h2>
 
-            <p class="article__excerpt">{% if currentPage.description %}{{ currentPage.description }}{% else %}{{ currentPage.content | strip_html | truncate: 160 }}{% endif %}</p>
+            <p class="article__excerpt">{% if currentPage.description %}{{ currentPage.description }}{% else %}{{ currentPage.content | strip_html | truncate: 500 }}{% endif %}</p>
 
           </div>
         </div>

@@ -1,8 +1,8 @@
 ---
 layout: news
 title: Research Story in NewScientist on MagNav Research
-description: 
-date: 2022-09-23 00:00:00 +0000
+description:
+date: 2022-09-23 12:00:00 +0000
 image: '/images/news/newscientist_photo.webp'
 video_embed:
 ---
