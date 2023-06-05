@@ -37,13 +37,13 @@ This work is supported by [Aurigo Software Technologies](https://www.aurigo.com/
 
 <!-- Include below if you have additional resources to add (e.g. interview videos) -->
 
-<!-- ***
+***
 
 ## Additional Resources
 
-### Youtube Embed
-<p><iframe src="https://www.youtube.com/embed/2b2gJu-g3qE" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<!-- ### Youtube Embed -->
+<p><iframe src="https://www.youtube.com/watch?v=1rVH4LCTMuo" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
-### Vimeo Embed
+<!-- ### Vimeo Embed
 
 <p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p> -->
