@@ -42,8 +42,4 @@ This work is supported by [Aurigo Software Technologies](https://www.aurigo.com/
 ## Additional Resources
 
 <!-- ### Youtube Embed -->
-<p><iframe src="https://www.youtube.com/watch?v=1rVH4LCTMuo" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
-
-<!-- ### Vimeo Embed
-
-<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p> -->
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1rVH4LCTMuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
