@@ -17,7 +17,7 @@ We aim to create and test a system capable of measuring underwater areas and fea
 ## Related Publications <!-- Remove if not applicable -->
 1. A. L. Diaz, A. E. Ortega, H. Tingle, A. Pulido, O. Cordero, M. Nelson, N. E. Cocoves, J. Shin, R. R. Carthy, B. E. Wilkinson, and P. G. Ifju, “The bathy-drone: An autonomous uncrewed drone-tethered sonar system,” *Drones*, vol. 6, no. 10, 2022, issn: 2504-446X. [Online]. Available: [[Paper]](https://www.mdpi.com/2504-446X/6/10/294)
 1. A. Pulido, A. Diaz, A. Ortega, P. Ifju, and J. Shin, “Trajectory planning and control of bathy-drone: A drone towing a boat equipped with sonar for bathymetry mapping,” in *AIAA SCITECH 2023 Forum*, 2023, p. 1811
-1. A. Pulido, R. Qin, A. Diaz, A. Ortega, P. Ifju, and J. J. Shin, “Time and cost-efficient bathymetric mapping system using sparse point cloud generation and automatic object detection,” in *OCEANS 2022, Hampton Roads*, 2022, pp. 1–8. doi: 10.1109/OCEANS47191.2022.9977073
+1. A. Pulido, R. Qin, A. Diaz, A. Ortega, P. Ifju, and J. J. Shin, “Time and cost-efficient bathymetric mapping system using sparse point cloud generation and automatic object detection,” in *OCEANS 2022, Hampton Roads*, 2022, pp. 1–8. doi: 10.1109/OCEANS47191.2022.9977073 [[Preprint]](https://arxiv.org/pdf/2210.10263.pdf) [[Paper]](https://ieeexplore.ieee.org/document/9977073)
 
 ## Research Team <!-- Remove if not applicable -->
 PI: [Peter Ifju (UF)](https://mae.ufl.edu/people/profiles/peter-ifju/)  
