@@ -1,38 +1,38 @@
 ---
 layout: page
-title: Information-Aware Target Tracking using Motion Model Learning
+title: Information-driven Trajectory Planning for Multi-Agent Target Tracking under Uncertainty
 permalink: /research/:slug/
 image: '/images/38.jpg' # representative figure
-description: in 160 characters
+description: We aim to develop information-driven trajectory planning approaches for multi-agent multi-target tracking under intermittent measurements and target motion model uncertainty from the trained neural network.
 ---
 
 ## Overview <!-- Must include -->
-Put a paragraph here to describe the project. Also, you can include research questions. Try to be concise and informative and limit the length to 3-5 sentences.
+Many surveillance systems are tasked with monitoring the area of interest and tracking targets of interest by estimating their pose and velocity over a period of time. Target tracking is challenging because these sensor measurements can be intermittent and noisy depending on the applications and environmental conditions, and the true target state is never available. Therefore, formulating and evaluating the uncertainty is important in target tracking to assess the system performance and to make further decisions. In this project, we aim to develop information-driven trajectory planning approaches for multi-agent multi-target tracking under intermittent measurements and target motion model uncertainty from the trained neural network.
 
-## Research Goals <!-- Remove if not applicable -->
-* Use these bullet points to clearly show the research goals and objectives under this research project.
-  * You can also use indent if needed. But it can make the list look text-heavy and dense.
-* So, it's preferred to use short phrases when you use the indent.
-* For example, you can use it to list some nouns or items.
+## Research Questions <!-- Remove if not applicable -->
+* How can we estimate information gains in continuous domain for a long-horizon planning?
+* How can an information-driven approach represent sensor measurements utility considering motion model learning?
+* How can we compute expected information gain for multiple agents for multi-target tracking?
 
-## Related Publications <!-- Remove if not applicable -->
+<!-- ## Related Publications
 1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item
-1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item
+1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item -->
 
 ## Research Team <!-- Remove if not applicable -->
-Put a name with a link if the person has a page in our website, for example, [Alena Curtis](/people/alena), [Nolan Bergson](/people/nolan)
+PI: [Jane Shin](/people/jane)    
+Participants: [Andres Pulido](/people/andres), Kyle Volle, Kristy Waters, Jared Paquet
 
 ## Acknowledgement <!-- Remove if not applicable -->
-This work is supported by XXX through grant XXX. I think I should put logos here as well.
+This work is supported by Air Force Research Lab through FA8651-22-S-0001.
 
 <!-- Include below if you have additional resources to add (e.g. interview videos) -->
 ***
 
-## Additional Resources
+<!-- ## Additional Resources
 
 ### Youtube Embed
 <p><iframe src="https://www.youtube.com/embed/2b2gJu-g3qE" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 ### Vimeo Embed
 
-<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p> -->
