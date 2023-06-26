@@ -1,13 +1,14 @@
 ---
 layout: member
 displayname: Zijing Huang
-title: PhD Student
+title: 'APRILab Zijing Huang'
+role: PhD Student
 image: '/images/headshots/headshot_zijing.jpg'
 cover:
-website: https://www.google.com
-googlescholar: https://scholar.google.com
-github: https://github.com
-linkedin: https://www.linkedin.com
+# website: https://www.google.com
+# googlescholar: https://scholar.google.com
+# github: https://github.com
+# linkedin: https://www.linkedin.com
 permalink: /people/:slug/
 ---
 <!-- Put your biography here -->

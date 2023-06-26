@@ -1,13 +1,14 @@
 ---
 layout: member
 displayname: Sunmo Koo
-title: MS Student
+title: 'APRILab Sunmo Koo'
+role: MS Student
 image: '/images/headshots/headshot_sunmo.jpeg'
 cover:
-website: https://www.google.com
-googlescholar: https://scholar.google.com
-github: https://github.com
-linkedin: https://www.linkedin.com
+# website: https://www.google.com
+# googlescholar: https://scholar.google.com
+# github: https://github.com
+# linkedin: https://www.linkedin.com
 permalink: /people/:slug/
 ---
 <!-- Put your biography here -->

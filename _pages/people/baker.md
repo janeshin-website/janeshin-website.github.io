@@ -1,13 +1,14 @@
 ---
 layout: member
 displayname: Baker Herrin 
-title: PhD Student
+title: 'APRILab Baker Herrin'
+role: PhD Student
 image: '/images/headshots/headshot_baker.jpg'
 cover:
-website: https://www.google.com
-googlescholar: https://scholar.google.com
-github: https://github.com
-linkedin: https://www.linkedin.com
+website: https://abubake.github.io/
+# googlescholar: https://scholar.google.com
+# github: https://github.com
+# linkedin: https://www.linkedin.com
 permalink: /people/:slug/
 ---
 <!-- Put your biography here -->

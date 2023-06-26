@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Information-driven Trajectory Planning for Multi-Agent Target Tracking under Uncertainty
+title: Uncertainty-Aware Trajectory Planning for Multi-Agent Target Tracking
 permalink: /research/:slug/
-image: '/images/38.jpg' # representative figure
-description: We aim to develop information-driven trajectory planning approaches for multi-agent multi-target tracking under intermittent measurements and target motion model uncertainty from the trained neural network.
+image: '/images/research/MultiAgentTargetTracking.png' # representative figure
+description: We aim to develop an uncertainty-aware guidance law for a multi-agent system to track multiple targets.
 ---
 
 ## Overview <!-- Must include -->
@@ -20,7 +20,8 @@ Many surveillance systems are tasked with monitoring the area of interest and tr
 
 ## Research Team <!-- Remove if not applicable -->
 PI: [Jane Shin](/people/jane)    
-Participants: [Andres Pulido](/people/andres), Kyle Volle, Kristy Waters, Jared Paquet
+Participants: [Andres Pulido](/people/andres), Kyle Volle, Kristy Waters, Jared Paquet   
+PO: [Zach Bell](https://scholar.google.com/citations?user=wPieKPgAAAAJ&hl=en)
 
 ## Acknowledgement <!-- Remove if not applicable -->
 This work is supported by Air Force Research Lab through FA8651-22-S-0001.

@@ -1,38 +1,36 @@
 ---
 layout: page
-title: Modular UUV
+title: Modular UUV Design
 permalink: /research/:slug/
 image: '/images/research/submodical_photo_lights.jpg' # representative figure
-description: in 160 characters
+description: We aim to design an open-sourced modular UUV that can be easily used for validation and verification.
 ---
 
 ## Overview <!-- Must include -->
-Put a paragraph here to describe the project. Also, you can include research questions. Try to be concise and informative and limit the length to 3-5 sentences.
+While autonomous robots have seen significant research advancements in recent years, due to the harsh nature of underwater environment, there is limited availability in finding off-the-shelf underwater robots for various applications. Custom-built underwater robots may be necessary for specialized applications or missions, but the process can be more costly, time-consuming, and requiring expert knowledge. This challenge makes validation and verification process difficult. To address these challenges, we propose a modular underwater robot that can serve as an open-source testbed system that is customizable and subject to environmental variability.
 
 ## Research Goals <!-- Remove if not applicable -->
-* Use these bullet points to clearly show the research goals and objectives under this research project.
-  * You can also use indent if needed. But it can make the list look text-heavy and dense.
-* So, it's preferred to use short phrases when you use the indent.
-* For example, you can use it to list some nouns or items.
+* Mechanical team aims to design based on BlueROV2's design (from BlueRobotics).  
+* Electrical team aims to design PCBs that can manage different sensor and actuator configurations.
+* Software team aims to design a software system that can operate easily with ROS system.
 
 ## Related Publications <!-- Remove if not applicable -->
-1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item
-1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item
+1. B. Herrin, V. Close, N. Berner, J. Herbert, J. Mindlin, S. Paez, R. James, and J. Shin, “Submodical: Modular underwater robot for rapid development and validation of autonomous systems,” in *OCEANS 2023, Gulf Coast (Abstract Accepted)*
 
 ## Research Team <!-- Remove if not applicable -->
-Put a name with a link if the person has a page in our website, for example, [Alena Curtis](/people/alena), [Nolan Bergson](/people/nolan)
+PI: [Jane Shin](/people/jane)  
+Team Lead: Victoria Close, [Baker Herrin](/people/baker)  
+EE Team: Ryan James, Ethan Reussow, Cale Woodward  
+ME Team: [Nathan Berner](/people/nathan), Josh Hebert  
+CS Team: Jared Mindlin, [Sebastian Paez](/people/sebastian)  
 
-## Acknowledgement <!-- Remove if not applicable -->
-This work is supported by XXX through grant XXX. I think I should put logos here as well.
-
-<!-- Include below if you have additional resources to add (e.g. interview videos) -->
 ***
 
-## Additional Resources
+<!-- ## Additional Resources
 
 ### Youtube Embed
 <p><iframe src="https://www.youtube.com/embed/2b2gJu-g3qE" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 ### Vimeo Embed
 
-<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p> -->

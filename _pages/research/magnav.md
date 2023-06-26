@@ -1,28 +1,28 @@
 ---
 layout: page
-title: Magnetic Navigation - Information-driven Approach
+title: 'Magnetic Navigation: Information-driven Path Planning for Localization'
 permalink: /research/:slug/
-image: '/images/38.jpg' # representative figure
-description: in 160 characters
+image: '/images/research/MagNavPP.png' # representative figure
+description: Use magenetic field map and magenetometer for localization when GPS is not available.
 ---
 
 ## Overview <!-- Must include -->
 Although many outdoor autonomous robotics systems rely on GPS, there are some situations or applications where GPS signal is unavailable, e.g., navigation in an underwater environment, receiving a degraded or jammed GPS signal. One solution to this GPS-denied navigation is magnetic anomaly-based navigation, which allows robots to localize based on a series of magnetometer readings and a pre-known magnetic field map. In this project, we focus on developing information-driven active localization methods that plan a path for reducing localization uncertainty.
 
-## Research Goals
+<!-- ## Research Goals
 * Use these bullet points to clearly show the research goals and objectives under this research project.
   * You can also use indent if needed. But it can make the list look text-heavy and dense.
 * So, it's preferred to use short phrases when you use the indent.
-* For example, you can use it to list some nouns or items.
+* For example, you can use it to list some nouns or items. -->
 
 ## Related Publications
 1. J. H. Ramos, J. Shin, K. Volle, P. Buzaud, K. Brink and P. Ganesh, "Information-Aware Guidance for Magnetic Anomaly based Navigation," *2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Kyoto, Japan, 2022, pp. 6347-6354, doi: 10.1109/IROS47612.2022.9981709.
 
-## Research Team
-[Jane Shin](/people/jane), Humberto Ramos
+## Research Team at UF
+[Jane Shin](/people/jane), Humberto Ramos, Kristy Waters
 
-<!-- ## Acknowledgement
-This work is supported by XXX through grant XXX. I think I should put logos here as well. -->
+## Acknowledgement
+This work is partially supported by Air Force Research Lab through FA8651-22-F-1052.
 
 <!-- Include below if you have additional resources to add (e.g. interview videos) -->
 ***

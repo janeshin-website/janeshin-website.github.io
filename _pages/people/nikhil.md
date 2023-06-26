@@ -1,7 +1,8 @@
 ---
 layout: member
 displayname: Nikhil Iyer 
-title: Undergraduate Student
+title: 'APRILab Nikhil Iyer'
+role: Undergraduate Student
 image: '/images/headshots/headshot_nikhil.jpg'
 cover:
 github: https://github.com/Nikhil-42

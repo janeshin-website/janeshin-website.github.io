@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Planning for Underwater Automatic Target Recognition</title>
-  <meta name='description' content='in 160 characters'>
+  <title>Underwater Robot Planning with Imaging Sonar</title>
+  <meta name='description' content='We aim to develop an autonomous underwater system that can be aware of information and uncertainty.'>
 
   <link rel="canonical" href="http://localhost:4000/research/atr/">
   <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Planning for Underwater Automatic Target Recognition – APRILab @ UF">
-  <meta name="twitter:description" content="in 160 characters">
+  <meta name="twitter:title" content="Underwater Robot Planning with Imaging Sonar – APRILab @ UF">
+  <meta name="twitter:description" content="We aim to develop an autonomous underwater system that can be aware of information and uncertainty.">
   <meta name="twitter:image:src" content="http://localhost:4000/images/research/UESonarSim.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Planning for Underwater Automatic Target Recognition – APRILab @ UF">
-  <meta property="og:description" content="in 160 characters">
+  <meta property="og:title" content="Underwater Robot Planning with Imaging Sonar – APRILab @ UF">
+  <meta property="og:description" content="We aim to develop an autonomous underwater system that can be aware of information and uncertainty.">
   <meta property="og:image" content="http://localhost:4000/images/research/UESonarSim.png">
 
   <!-- Fonts -->
@@ -179,9 +179,9 @@
   <div class="page-head">
   
     <div class="page__info">
-      <h1 class="page__title">Planning for Underwater Automatic Target Recognition</h1>
+      <h1 class="page__title">Underwater Robot Planning with Imaging Sonar</h1>
       
-        <!-- <div class="page__description">in 160 characters</div> -->
+        <!-- <div class="page__description">We aim to develop an autonomous underwater system that can be aware of information and uncertainty.</div> -->
       
     </div>
   
@@ -189,7 +189,7 @@
   
     
     <div class="page-image">
-      <img class="lazy" data-src="/images/research/UESonarSim.png" alt="Planning for Underwater Automatic Target Recognition">
+      <img class="lazy" data-src="/images/research/UESonarSim.png" alt="Underwater Robot Planning with Imaging Sonar">
     </div>
     
   
@@ -204,17 +204,13 @@
   <article class="page">
     <div class="page__content">
       <h2 id="overview-">Overview <!-- Must include --></h2>
-<p>Unlike camera images, SONAR images are very noisy and vary greatly depending on the viewing angle of an object, because the highlight and shadow pattern in the obtained images is changed based on the angle of the reflected surface. These properties of SONAR imagery require the robots to obtain observations from multiple views to achieve satisfactory classification performance, leading to a time-consuming mission. To tackle this problem, an information-driven sensor path-planning algorithm is proposed so that the underwater robot can minimize the operation time while achieving a satisfactory classification performance by only obtaining informative observation. This work is based on previous work on single target classification that utilizes a pre-trained convolutional neural network and a newly-trained support vector machine. This single target classification approach is then extended to estimate the confidence level on target classification depending on the viewing angles. Using this expected confidence level, an information-driven sensor path-planning algorithm is developed to minimize the operation time while achieving a satisfactory classification performance by only obtaining informative observations.</p>
+<p>Unlike camera images, SONAR images are very noisy and vary greatly depending on the viewing angle of an object, because the highlight and shadow pattern in the obtained images is changed based on the angle of the reflected surface. These properties of SONAR imagery require the robots to obtain observations from multiple views to achieve satisfactory classification performance, leading to a time-consuming mission. To tackle this problem, an information-driven sensor path-planning algorithm has been proposed so that the underwater robot can minimize the operation time while achieving a satisfactory classification performance by only obtaining informative observation. In order to overcome the nature of data-poor environment and unexpected various seabed conditions, a photo-realistic game engine has been developed to implement various environments, such as sand ripples and muds. We aim to utilize this simulation tool to overcome challenges in autonomous target recognition within an unexpected underwater environment.</p>
 
-<h2 id="research-goals-">Research Goals <!-- Remove if not applicable --></h2>
+<h2 id="research-questions-">Research Questions <!-- Remove if not applicable --></h2>
 <ul>
-  <li>Use these bullet points to clearly show the research goals and objectives under this research project.
-    <ul>
-      <li>You can also use indent if needed. But it can make the list look text-heavy and dense.</li>
-    </ul>
-  </li>
-  <li>So, it’s preferred to use short phrases when you use the indent.</li>
-  <li>For example, you can use it to list some nouns or items.</li>
+  <li>How can we optimize the UUV’s path to minimize the travel time and achieve satisfactory confidence level?</li>
+  <li>How can we overcome the nature of data-poor environment?</li>
+  <li>How can a UUV with imaging sonar sensors operate with various seabed conditions?</li>
 </ul>
 
 <h2 id="related-publications-">Related Publications <!-- Remove if not applicable --></h2>
@@ -224,23 +220,23 @@
   <li>S. Chang, J. Isaacs, B. Fu, J. Shin, P. Zhu, and S. Ferrari, “Confidence level estimation inmulti-target classification problems,” <em>Proc. SPIE</em>, vol. 10628, 2018, Art. no. 1062818.</li>
 </ol>
 
-<h2 id="research-team-at-aprilab">Research Team at APRILab</h2>
-<p><a href="/people/jane">Jane Shin</a>, <a href="/people/nikhil">Nikhil Iyer</a></p>
+<h2 id="research-team-in-aprilab">Research Team in APRILab</h2>
+<p><a href="/people/jane">Jane Shin</a>, <a href="/people/nikhil">Nikhil Iyer</a>, <a href="people/sunmo">Sunmo Koo</a></p>
 
-<h2 id="acknowledgement-">Acknowledgement <!-- Remove if not applicable --></h2>
-<p>This work is supported by XXX through grant XXX. I think I should put logos here as well.</p>
+<!-- ## Acknowledgement
+This work is supported by XXX through grant XXX. I think I should put logos here as well. -->
 
 <!-- Include below if you have additional resources to add (e.g. interview videos) -->
-<hr />
+<!-- ***
 
-<h2 id="additional-resources">Additional Resources</h2>
+## Additional Resources
 
-<h3 id="youtube-embed">Youtube Embed</h3>
-<p><iframe src="https://www.youtube.com/embed/2b2gJu-g3qE" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
+### Youtube Embed
+<p><iframe src="https://www.youtube.com/embed/2b2gJu-g3qE" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
-<h3 id="vimeo-embed">Vimeo Embed</h3>
+### Vimeo Embed
 
-<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen=""></iframe></p>
+<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p> -->
 
     </div>
   </article>
@@ -288,7 +284,7 @@
                         
                           <a class="article__author__name" href="/about/">Alena Curtis</a>
                         
-                        <time class="article__date" datetime="2023-04-28T07:00:00-04:00">28 Apr 2023</time>
+                        <time class="article__date" datetime="2023-04-28T01:00:00-10:00">28 Apr 2023</time>
                       </div>
                     </div> -->
                   </div>
@@ -317,7 +313,7 @@
                         
                           <a class="article__author__name" href="/about/">Alena Curtis</a>
                         
-                        <time class="article__date" datetime="2022-10-19T22:55:00-04:00">19 Oct 2022</time>
+                        <time class="article__date" datetime="2022-10-19T16:55:00-10:00">19 Oct 2022</time>
                       </div>
                     </div> -->
                   </div>
@@ -346,7 +342,7 @@
                         
                           <a class="article__author__name" href="/about/">Alena Curtis</a>
                         
-                        <time class="article__date" datetime="2022-09-23T08:00:00-04:00">23 Sep 2022</time>
+                        <time class="article__date" datetime="2022-09-23T02:00:00-10:00">23 Sep 2022</time>
                       </div>
                     </div> -->
                   </div>

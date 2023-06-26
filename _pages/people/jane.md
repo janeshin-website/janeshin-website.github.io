@@ -1,13 +1,15 @@
 ---
 layout: member
 displayname: Jane Shin
-title: Assistant Professor <br> Principal Investigator
+title: 'APRILab Jane Shin'
+role: Assistant Professor <br> Principal Investigator
 image: '/images/headshots/headshot_jane.jpg'
 cover:
-website: https://www.google.com
-googlescholar: https://scholar.google.com
-github: https://github.com
-linkedin: https://www.linkedin.com
+website: 
+googlescholar: https://scholar.google.com/citations?user=FultZKAAAAAJ&hl=en&oi=ao
+github: 
+linkedin: 
+cv: 'JaneShinCV_6_26_23.pdf'
 permalink: /people/:slug/
 ---
 <!-- Put your biography here -->

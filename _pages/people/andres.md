@@ -1,13 +1,14 @@
 ---
 layout: member
 displayname: Andres Pulido
-title: PhD Student
+title: 'APRILab Andres Pulido'
+role: PhD Student
 image: '/images/headshots/headshot_andres.png'
 cover:
-website: https://www.google.com
-googlescholar: https://scholar.google.com
-github: https://github.com
-linkedin: https://www.linkedin.com
+# website: https://www.google.com
+# googlescholar: https://scholar.google.com
+github: https://github.com/andrespulido8
+# linkedin: https://www.linkedin.com
 permalink: /people/:slug/
 ---
 <!-- Put your biography here -->

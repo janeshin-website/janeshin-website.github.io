@@ -23,8 +23,8 @@ permalink: /publications/
 ## Conference Proceedings
 
 <!-- 1. AIAA Scitech paper -->
-1. B. Herrin, V. Close, N. Berner, J. Herbert, J. Mindlin, S. Paez, R. James, and J. Shin, “Submodical: Modular underwater robot for rapid development and validation of autonomous systems,” in *OCEANS 2023, Gulf Coast (Abstract Submitted)*
 1. A. Pulido, N. Sardinia, B. Sanders, P. Ifju, and J. Shin, “Coverage path planning for a robotics platform equipped with a side-scan sonar sensor for underwater bathymetry mapping,” in *AIAA SCITECH 2024 Forum (Abstract Submitted)*
+1. B. Herrin, V. Close, N. Berner, J. Herbert, J. Mindlin, S. Paez, R. James, and J. Shin, “Submodical: Modular underwater robot for rapid development and validation of autonomous systems,” in *OCEANS 2023, Gulf Coast (Abstract Accepted)*
 1. A. Pulido, A. Diaz, A. Ortega, P. Ifju, and J. Shin, “Trajectory planning and control of bathy-drone: A drone towing a boat equipped with sonar for bathymetry mapping,” in *AIAA SCITECH 2023 Forum*, 2023, p. 1811
 1. J. H. Ramos, J. Shin, K. Volle, P. Buzaud, K. Brink and P. Ganesh, "Information-Aware Guidance for Magnetic Anomaly based Navigation," *2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Kyoto, Japan, 2022, pp. 6347-6354, doi: 10.1109/IROS47612.2022.9981709.
 1. A. Pulido, R. Qin, A. Diaz, A. Ortega, P. Ifju and J. J. Shin, "Time and Cost-Efficient Bathymetric Mapping System using Sparse Point Cloud Generation and Automatic Object Detection," *OCEANS 2022, Hampton Roads, Hampton Roads*, VA, USA, 2022, pp. 1-8, doi: 10.1109/OCEANS47191.2022.9977073.

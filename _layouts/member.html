@@ -20,7 +20,7 @@ layout: default
     <div class="author__content">
       <div class="author__image"><img class="lazy" data-src="{{ page.image }}" alt="{{ page.displayname }}"></div>
       <h1 class="author__name">{{ page.displayname }}</h1>
-      <div class="author__posts__count">{{ page.title }}</div>
+      <div class="author__posts__count">{{ page.role }}</div>
 
       <div class="author__info">
       <!-- {% if page.email %}
@@ -28,6 +28,9 @@ layout: default
       {% endif %} -->
       {% if page.website %}
         <a class="author__social__item" href="{{ page.website }}" aria-label="Website link"><i class="ion ion-ios-link"></i> Website</a>
+      {% endif %}
+      {% if page.cv %}
+        <a target="_blank" class="author__social__item" href="{{ site.baseurl }}/static/{{ page.cv }}" aria-label="Website link"><i class="ion ion-ios-link"></i> CV </a>
       {% endif %}
       {% if page.googlescholar %}
         <a class="author__social__item" href="{{ page.googlescholar }}" aria-label="Website link"><i class="ai ai-google-scholar-square"></i> Google Scholar</a>

@@ -22,7 +22,7 @@ We aim to create and test a system capable of measuring underwater areas and fea
 ## Research Team <!-- Remove if not applicable -->
 PI: [Peter Ifju (UF)](https://mae.ufl.edu/people/profiles/peter-ifju/)  
 Co-PI: [Jane Shin](/people/jane)  
-Participants: [Andres Pulido](/people/andres), Tony Diaz, Henry Tingle, Gavin Gamble, Alex Baker, Blake Sanders, Nicholas Sardinia, Jack Parker
+Participants from APRILab: [Andres Pulido](/people/andres), Alex Baker, Blake Sanders, Nicholas Sardinia
 
 ## Acknowledgement <!-- Remove if not applicable -->
 This work is supported by [Aurigo Software Technologies](https://www.aurigo.com/).
