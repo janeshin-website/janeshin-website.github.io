@@ -2,7 +2,7 @@
 layout: page
 title: Modular UUV Design
 permalink: /research/:slug/
-image: '/images/research/submodical_photo_lights.jpg' # representative figure
+image: '/images/research/submodical_photo_lights.JPG'
 description: We aim to design an open-sourced modular UUV that can be easily used for validation and verification.
 ---
 
