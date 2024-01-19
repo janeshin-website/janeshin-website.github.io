@@ -5,7 +5,7 @@ title: 'APRILab Andres Pulido'
 role: PhD Student
 image: '/images/headshots/headshot_andres.png'
 cover:
-# website: https://www.google.com
+website: https://andrespulido8.github.io/ 
 # googlescholar: https://scholar.google.com
 github: https://github.com/andrespulido8
 # linkedin: https://www.linkedin.com
