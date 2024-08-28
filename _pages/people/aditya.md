@@ -5,9 +5,9 @@ title: 'APRILab Aditya Penurmati '
 role: PhD Student
 image: '/images/headshots/headshot_aditya.jpg'
 cover:
-# website: https://www.google.com
-# googlescholar: https://scholar.google.com
-github: https://github.com/adipenu
+website: https://aditya-penumarti.github.io/
+googlescholar: https://scholar.google.com/citations?user=q9V7p6kAAAAJ&hl=en
+github: https://github.com/aditya-penumarti
 # linkedin: https://www.linkedin.com
 permalink: /people/:slug/
 ---

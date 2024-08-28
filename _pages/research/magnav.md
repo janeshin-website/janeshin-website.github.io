@@ -19,7 +19,7 @@ Although many outdoor autonomous robotics systems rely on GPS, there are some si
 1. J. H. Ramos, J. Shin, K. Volle, P. Buzaud, K. Brink and P. Ganesh, "Information-Aware Guidance for Magnetic Anomaly based Navigation," *2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Kyoto, Japan, 2022, pp. 6347-6354, doi: 10.1109/IROS47612.2022.9981709.
 
 ## Research Team at UF
-[Jane Shin](/people/jane), Humberto Ramos, Kristy Waters
+[Jane Shin](/people/jane), [Aditya Penumarti](/people/aditya), Humberto Ramos, Kristy Waters
 
 ## Acknowledgement
 This work is partially supported by Air Force Research Lab through FA8651-22-F-1052.
