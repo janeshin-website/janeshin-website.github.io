@@ -1,7 +1,7 @@
 ---
 layout: member
-displayname: Aditya Penurmati 
-title: 'APRILab Aditya Penurmati '
+displayname: Aditya Penumarti 
+title: 'APRILab Aditya Penumarti '
 role: PhD Student
 image: '/images/headshots/headshot_aditya.jpg'
 cover:
