@@ -14,9 +14,9 @@ Many surveillance systems are tasked with monitoring the area of interest and tr
 * How can an information-driven approach represent sensor measurements utility considering motion model learning?
 * How can we compute expected information gain for multiple agents for multi-target tracking?
 
-<!-- ## Related Publications
-1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item
-1. Cite publication with IEEE reference style. Then list the links to paper, slides, videos, codes per each item -->
+## Related Publications
+1.  A. Pulido, K. Volle, Z.I. Bell, and J. Shin, "Transformer-based Motion Model for Robust Target Tracking under Intermittent and Noisy Measurements," *Accepted to 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)*
+2.  A. Pulido, K. Volle, K. Waters, Z. I. Bell, P. Ganesh and J. Shin, "Uncertainty-Aware Guidance for Target Tracking subject to Intermittent Measurements using Motion Model Learning," in *2025 American Control Conference (ACC)*, Denver, CO, USA, 2025, pp. 3140-3145, doi: 10.23919/ACC63710.2025.11107429.
 
 ## Research Team <!-- Remove if not applicable -->
 PI: [Jane Shin](/people/jane)    

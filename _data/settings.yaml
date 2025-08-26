@@ -34,7 +34,7 @@ hero:
   enable: true
   hero__title: Active Perception and Robot Intelligence Lab
   hero__description: The Active Perception and Robot Intelligence Lab (APRILab) is in the Department of Mechanical and Aerospace Engineering at the University of Florida. We investigate and develop planning algorithms of autonomous robotic systems based on the underlying principles in robot perception. We aim to understand the uncertainties associated with perception and estimation so that planning algorithms can reason their decisions and achieve robust and trustworthy systems.
-  hero__image: # You can add hero image. For example '/images/06.jpg'
+  hero__image: /images/logos/aprilab_logo.png 
 
 
 #-------------------------------

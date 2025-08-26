@@ -2,7 +2,7 @@
 layout: member
 displayname: Aditya Penumarti 
 title: 'APRILab Aditya Penumarti '
-role: PhD Student
+role: Ph.D. Student
 image: '/images/headshots/headshot_aditya.jpg'
 cover:
 website: https://aditya-penumarti.github.io/
@@ -13,5 +13,6 @@ permalink: /people/:slug/
 ---
 <!-- Put your biography here -->
 Aditya Penumarti is a Ph.D. student in the Active Perception and Robot Intelligence Lab. He completed his B.S. in Mechanical Engineering from NC State University in 2021 and his M.S. in 2023 as a graduate researcher at the Center of Intelligent Machines and Robotics at the University of Florida.
-His current research interests are Kinematics, Motion Planning, Localization, and Force Control. His teaching interests include system and mechanical design, and kinematics, dynamics and control of robots
-Email: apenumarti@ufl.edu
+His current research interests is Multi-Modal sensing for localization and navigation in uncertain environments. His teaching interests include system and mechanical design, and kinematics, dynamics and control of robots.
+
+Email: [apenumarti@ufl.edu](mailto:apenumarti@ufl.edu)
