@@ -42,7 +42,7 @@ permalink: /publications/
 14. J. Shin, F. Kim, and S. Ferrari, “Deep Generative Model and Reinforcement Learning Solutions to Traveling Salesman Problems with Unit Circles,”*AIAA SCITECH 2022 Forum*, San Diego, CA, USA, January 3-7, 2022, p. 2209
 15. S. Chang, J. Isaacs, B. Fu, J. Shin, P. Zhu, and S. Ferrari, “Confidence level estimation inmulti-target classification problems,” *Proc. SPIE*, vol. 10628, 2018, Art. no. 1062818.
 
-## Poster Presentation
+## Workshop Paper & Poster Presentation
 
 1. E.B. Herrin, Z.H. Zhang, P. Sarma, X. Lin, and J. Shin, "SGD11: A Diver Gesture Recognition Dataset for Underwater Human-Robot Collaboration," in *AQ2UASIM Workshop at International Conference on Robotics and Automation (ICRA) 2025*
 2. A.L. Diaz, A.E. Ortega, H. Tingle, A. Pulido, M. Nelson, N. Cocoves, R.R. Carthy, J. Shin, P.G. Ifju, “Drone-based Bathymetric Mapping Platform” Poster Presentation, *University of Florida Water Institute Symposium*, Gainesville, FL, USA, February 22, 2022
